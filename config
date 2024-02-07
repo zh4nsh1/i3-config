@@ -196,8 +196,9 @@ bindsym $mod+r mode "resize"
 focus_follows_mouse no
 mouse_warping none
 
-#Custom execs. Hide the mouse, Pinyin IME, LXSessions auth agent and screensaver.
+#Custom execs. Hide the mouse, wired notify, Pinyin IME, LXSessions auth agent and screensaver.
 exec unclutter&
+exec wired &
 exec fcitx5 -d
 exec lxsession&
 exec xscreensaver --no-splash &
