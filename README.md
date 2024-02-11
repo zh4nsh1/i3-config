@@ -5,3 +5,4 @@ It depends on a few other packages to function. These are
 - fcitx5
 - lxsession
 - xscreensaver
+- flameshot
